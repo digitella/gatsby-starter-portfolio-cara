@@ -1,4 +1,23 @@
 ---
 label: Tempalate Two-Columns
 hide_body: false
-fields: []
+fields:
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - tempalate-two-columns
+  config:
+    min: 
+    max: 
+  description: Blocks
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Area
+  description: Text Area
