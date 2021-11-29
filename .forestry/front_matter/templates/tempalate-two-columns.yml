@@ -21,3 +21,8 @@ fields:
       format: markdown
   label: Text Area
   description: Text Area
+- name: gallery_mulifile_upload
+  type: image_gallery
+  config: {}
+  label: Gallery Mulifile Upload
+  description: Gallery Mulifile Upload
